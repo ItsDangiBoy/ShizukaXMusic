@@ -217,4 +217,4 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 
 
-Heroku.com/deploy
+https://Heroku.com/deploy
