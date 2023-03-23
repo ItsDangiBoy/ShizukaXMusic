@@ -36,7 +36,7 @@
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Ramdi's database for you.",
         "value": "",
-        "required": false
+        "required": true
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
@@ -52,6 +52,16 @@
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
         "value": "",
         "required": true
+      },
+      "SUPPORT_GROUP": {
+        "description": "Your Support Group link ",
+        "value": "https://t.me/Best_FriendsFor_Ever",
+        "required": false
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "Your Updates Channel link",
+        "value": "https://t.me/Star_X_Network",
+        "required": false
       },
       "PING_IMG_URL": {
         "description": "The pic which will be shown when you give the /ping cmd to the bot.",
